@@ -1,0 +1,31 @@
+.spinner-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.spinner-container > .circular-spinner {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  border-radius: 50%;
+  border-top: 2px solid #4285f4;
+  border-right: 2px solid #ea4335;
+  border-bottom: 2px solid #fbbc05;
+  border-left: 2px solid #34a853;
+  animation: spin 0.3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(100deg);
+  }
+}

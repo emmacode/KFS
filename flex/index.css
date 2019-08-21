@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.main-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)),
+    url("./images/osman-rana-263708-unsplash.jpg");
+  padding-top: 140px;
+  /* height used */
+  background-size: cover !important;
+  height: 50vh;
+  /* create parallex scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 5%;
+}
+
+.main-header h5 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.main-header p {
+  font-size: 20px;
+}
+
+.navbar {
+  background: #000;
+}
+
+.navbar a {
+  color: rgba(255, 255, 255, 0.945) !important;
+  padding: 20px;
+  text-decoration: none !important;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.945);
+  color: #000 !important;
+}
+
+.side {
+  width: 30%;
+  background: rgba(134, 132, 132, 0.247) !important;
+  padding: 20px;
+}
+
+.side h5 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.side h6 {
+  font-size: 30px;
+}
+
+.side p {
+  font-size: 20px;
+}
+
+.main {
+  width: 70%;
+  background: #fff;
+  padding: 20px;
+}
+
+.main h5 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main h6 {
+  font-size: 30px;
+}
+
+.main p {
+  font-size: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  background: rgba(165, 162, 162, 0.76) !important;
+  padding: 20px;
+}
+div > img {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+}
+
+.image2 {
+  width: 100%;
+  height: 60px;
+  background: rgba(165, 162, 162, 0.76) !important;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: rgba(204, 202, 202, 0.247);
+  width: 100%;
+  height: 100px;
+  color: #000;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: bold;
+}
